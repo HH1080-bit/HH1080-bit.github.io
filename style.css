@@ -1,0 +1,140 @@
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    
+
+}
+.nav-link,
+.dropdown-item{
+    color: #0072BB !important;
+}
+
+
+
+.Carousal {
+    background-image: url(Img/maxresdefault.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    margin: 0;
+    position: relative;
+    
+    
+    
+}
+
+.Carousal .carText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.About {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.About h3 {
+    font-weight: bold;
+    color: #0072BB !important
+}
+.About p {
+    color: #000;
+    line-height: 30px;
+}
+
+.Services {
+    margin-bottom: 50px;
+}
+
+.Services .img-fluid {
+    height: 250px;
+    width: 500px;
+    cursor: pointer;
+}
+.Services .col-lg-6{
+    position: relative;
+    filter: saturate(0);
+    transition: 1s;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.Services .col-lg-6 h4 {
+    color: #fff;
+    position: absolute;   
+   opacity: 0;
+   transition: 0.3s;
+   font-size: 32px;
+    top: 40%;
+    text-align: center;
+    
+   
+   
+
+}
+.Services .col-lg-6:hover h4 {
+    opacity: 1;
+    filter: saturate(1);
+}
+.Services .col-lg-6:hover {
+    filter: saturate(1);
+}
+
+.Services h3{
+    color: #0072BB !important
+}
+.Services p{
+    color: black;
+}
+
+.gallary {
+    margin-bottom: 50px;
+}
+
+.gallary h3 {
+    color: #0072BB;
+}
+
+.gallary img {
+
+        width: 500px;
+        height: 500px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+
+.Services .h4 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  footer i {
+      font-size: 18px;
+      margin-left: 10px;
+  }
+
+  #goup {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #0072BB;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
